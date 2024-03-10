@@ -184,7 +184,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
     padding: 51px 40px 48px;
 }
 
@@ -235,7 +235,7 @@
 
 
 
-.about{
+.about {
     display: grid;
     grid-template-columns: 334px auto;
     grid-template-rows: auto;
