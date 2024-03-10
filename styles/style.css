@@ -306,7 +306,7 @@
 
 .footer__social-list {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, auto);
     gap: 48px;
 }
 
