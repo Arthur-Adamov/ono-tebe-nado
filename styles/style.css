@@ -63,7 +63,7 @@
 .cover {
     display: flex;
     flex-direction: column;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: -137px;
     color: #fff;
