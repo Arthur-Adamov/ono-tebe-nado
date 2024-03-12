@@ -136,7 +136,7 @@
     height: 51px;
     background: transparent;
     border: 1px solid currentColor;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
