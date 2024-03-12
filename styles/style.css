@@ -3,7 +3,6 @@
     grid-template-columns: 2fr 1fr 2fr;
     gap: 3px;
     width: 1052px;
-    height: 105px;
     margin: 92px 24px 96px;
     font-size: 18px;
 }
@@ -17,6 +16,7 @@
 
 .header__links-list {
     display: flex;
+    padding-top: 5px;
     gap: 32px;
 }
 
@@ -25,9 +25,11 @@
     letter-spacing: 0.01em;
 }
 
+.header__link_active {
+    border-bottom: none;
+}
 
 .header__links-list-item {
-    margin-top: 3px;
     list-style: circle;
 }
 
@@ -65,7 +67,7 @@
     flex-direction: column;
     background-image: url(../images/cover.jpg);
     background-size: cover;
-    background-position: -137px;
+    background-position: center;
     color: #fff;
     text-transform: uppercase;
     position: relative;
@@ -84,7 +86,6 @@
     flex-direction: column;
     margin: 165px 50px auto;
     width: 1000px;
-    height: 355px;
     gap: 20px;
     font-weight: 700;
     font-size: 100px;
@@ -141,7 +142,11 @@
     left: 794px;
     top: 655px;
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid currentColor;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
     font-size: 22px;
     line-height: 26px;
     text-align: center;
@@ -299,9 +304,12 @@
     line-height: 21px;
 }
 
-
 .footer__menu-link {
     border-bottom: 1px solid;
+}
+
+.footer__menu-link_active {
+    border-bottom: none;
 }
 
 .footer__social-list {
